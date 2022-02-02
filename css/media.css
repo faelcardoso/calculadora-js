@@ -1,0 +1,92 @@
+/* Media Querys */
+
+/* Lg screen */
+@media (max-width: 768px) {
+
+	.calc-body > p#calc-screen {
+		font-size: 1.4rem;
+
+		padding: 0.10rem 0.5rem;
+
+	}
+
+	.calc-title > h1 {
+		color: #fafafa;
+		border: none;
+		font-size: 1.3rem;
+	}
+
+	button.calc-btn {
+	font-size: 1.3rem;
+	padding: 1rem 1.5rem;
+	}
+
+}
+/* Lg screen */
+
+/* Sm and Md screens */
+@media (min-width: 320px) and (max-width: 425px) {
+	.calc-body > p#calc-screen {
+		font-size: 1.3rem;
+
+		padding: 0.10rem 0.5rem;
+
+	}
+
+	.calc-title > h1 {
+		color: #fafafa;
+		border: none;
+		font-size: 1.2rem;
+	}
+
+	button.calc-btn {
+	font-size: 1.2rem;
+	padding: 1rem 1.5rem;
+	}
+
+}
+/* Sm and Md screens */
+
+/* X-sm Screens */
+@media (max-width: 320px) {
+
+	.calc-body > p#calc-screen {
+		font-size: 1.2rem;
+
+		padding: 0.10rem 0.5rem;
+	}
+
+	.calc-title > h1 {
+		color: #fafafa;
+		border: none;
+		font-size: 1rem;
+	}
+
+	button.calc-btn {
+		font-size: 1rem;
+		padding: 1rem 1.5rem;
+	}
+}
+/* X-sm Screens */
+
+/* XX-sm Screens */
+@media (max-width: 256px) {
+
+	.calc-body > p#calc-screen {
+		font-size: 1rem;
+
+		padding: 0.10rem 0.5rem;
+	}
+
+	.calc-title > h1 {
+		color: #fafafa;
+		border: none;
+		font-size: 0.8rem;
+	}
+
+	button.calc-btn {
+		font-size: 1rem;
+		padding: 1rem 1.1rem;
+	}
+}
+/* XX-sm Screens */

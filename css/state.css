@@ -1,0 +1,26 @@
+/* Components states */
+
+/* calc-btn */
+button.calc-btn:hover {
+	transition: 400ms;
+	background-color: #3a464c;	
+}
+
+button.calc-btn:active {
+	transition: 1ms;
+	border: #fafafa solid 1px;
+}
+/* calc-btn */
+
+/* Equal row */
+tbody > tr:nth-child(4) > td:nth-child(4) {
+    height: 100%;
+    position: relative;
+    vertical-align: baseline;
+}
+
+button.calc-btn.full-row {
+	position: absolute;
+	height: 100%;
+}
+/* Equal row */
